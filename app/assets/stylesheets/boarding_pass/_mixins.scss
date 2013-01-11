@@ -1,0 +1,28 @@
+// Faux Box Shadow (IE8)
+@mixin faux-box-shadow($border: border, $size: 1px, $color: #CCC) {
+  #{$border}: #{$size} solid #{$color};
+  #{$border}: 0 solid rgba(0,0,0,0);
+}
+
+// Mostly cross-browser opacity
+@mixin oh-pacity($level: 1) {
+  $ms-level: $level*100;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$ms-level})";
+  filter: alpha(opacity=#{$ms-level});
+  -moz-opacity: #{$level};
+  -khtml-opacity: #{$level};
+  opacity: #{$level};
+}
+
+// Media Queries
+@mixin retina {
+  @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5){
+    @content;
+  }
+}
+
+// Remove margins & style from a list
+@mixin unstyled-list {
+  list-style: none outside;
+  margin: 0;
+}

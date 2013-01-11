@@ -1,0 +1,47 @@
+// Lists
+
+ul,
+ol {
+  padding: 0;
+  margin-bottom: 1.25em;
+  margin-left: 2em;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: circle;
+}
+
+ul.square {
+  list-style: square outside;
+}
+
+ul.circle {
+  list-style: circle outside;
+}
+
+ul.disc {
+  list-style: disc outside;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0.25em 0 0.25em 2em;
+  font-size: 90%;
+}
+
+ul ul li,
+ul ol li,
+ol ol li,
+ol ul li {
+  margin-bottom: 0.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}

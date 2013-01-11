@@ -1,0 +1,32 @@
+html body {
+  padding-left: 0; // IE
+  padding-right: 0; // IE
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #444;
+  background: #FFF;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased !important;
+}
+::selection {
+  background: #DDD;
+  text-shadow: none;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1em 0;
+  height: 0;
+}
+
+input, textarea, button, select {
+  -webkit-font-smoothing: antialiased !important;
+}
