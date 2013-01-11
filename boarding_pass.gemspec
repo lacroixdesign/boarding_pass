@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Michael LaCroix", "James LaCroix"]
   gem.email         = ["info@lacroixdesign.net"]
   gem.description   = %q{Boarding Pass is a set of default stylesheets, mixins, and variables.}
-  gem.summary       = %q{Boarding Pass uses Bourbon and Neat along with its own set of defaults to provide a starting point for web projects.}
+  gem.summary       = %q{Boarding Pass provides a set of tools and defaults to jump-start the front-end for web projects. Includes Sass, Bourbon and Bourbon Neat.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
