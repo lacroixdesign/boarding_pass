@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["info@lacroixdesign.net"]
   gem.description   = %q{Boarding Pass provides a set of tools and defaults to quickly start web project front-ends.}
   gem.summary       = %q{Boarding Pass provides a set of tools and defaults to quickly start web project front-ends. Includes Sass, Bourbon and Neat.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/lacroixdesign/boarding_pass"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
