@@ -1,6 +1,6 @@
 # BoardingPass
 
-TODO: Write a gem description
+Boarding Pass provides a set of tools and defaults to quickly start web project front-ends. Includes [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io/), and [Neat](http://neat.bourbon.io/).
 
 ## Installation
 
@@ -12,18 +12,16 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+### Rails 3.1+
 
-    $ gem install boarding_pass
+In your `application.css.scss` file, add:
 
-## Usage
+    @import "boarding_pass";
 
-TODO: Write usage instructions here
+## Todo
 
-## Contributing
+* Add generators for non-Rails/Middleman projects.
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+## License
+
+MIT License

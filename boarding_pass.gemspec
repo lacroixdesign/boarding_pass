@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Michael LaCroix", "James LaCroix"]
   gem.email         = ["info@lacroixdesign.net"]
   gem.description   = %q{Boarding Pass provides a set of tools and defaults to quickly start web project front-ends.}
-  gem.summary       = %q{Boarding Pass provides a set of tools and defaults to quickly start web project front-ends. Includes Sass, Bourbon and Bourbon Neat.}
+  gem.summary       = %q{Boarding Pass provides a set of tools and defaults to quickly start web project front-ends. Includes Sass, Bourbon and Neat.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency('sass', '>= 3.2')
-  gem.add_dependency('neat', '>= 1.1')
   gem.add_dependency('bourbon', '>= 3.0')
+  gem.add_dependency('neat', '>= 1.1')
 end
