@@ -1,3 +1,5 @@
+require "bourbon"
+require "neat"
 require "boarding_pass/version"
 
 module BoardingPass
