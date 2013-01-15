@@ -1,4 +1,4 @@
-# BoardingPass
+# Boarding Pass
 
 Boarding Pass provides a set of tools and defaults to quickly start web project front-ends. Includes [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io/), and [Neat](http://neat.bourbon.io/).
 
@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 
 And then execute:
 
-    $ bundle
+    bundle install
 
 ### Rails 3.1+
 
@@ -24,4 +24,5 @@ In your `application.css.scss` file, add:
 
 ## License
 
-MIT License
+Copyright © 2013 LaCroix Design Co.  
+Released under the MIT License
