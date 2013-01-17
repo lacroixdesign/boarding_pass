@@ -3,6 +3,10 @@ html body {
   padding-right: 0; // IE
 }
 
+* {
+  -webkit-font-smoothing: antialiased !important;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -12,7 +16,6 @@ body {
   font-size: 100%;
   font-weight: normal;
   line-height: 1.25;
-  -webkit-font-smoothing: antialiased !important;
 }
 ::selection {
   background: #DDD;
@@ -25,8 +28,4 @@ hr {
   clear: both;
   margin: 1em 0;
   height: 0;
-}
-
-input, textarea, button, select {
-  -webkit-font-smoothing: antialiased !important;
 }
