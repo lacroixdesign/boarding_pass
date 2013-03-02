@@ -18,6 +18,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency('sass', '>= 3.2')
-  gem.add_dependency('bourbon', '>= 3.0')
-  gem.add_dependency('neat', '>= 1.1')
+  gem.add_dependency('bourbon', '>= 3.1')
+  gem.add_dependency('neat', '>= 1.2')
 end
