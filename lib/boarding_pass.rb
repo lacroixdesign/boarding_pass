@@ -5,8 +5,7 @@ require "boarding_pass/version"
 module BoardingPass
   if defined?(Rails) && defined?(Rails::Engine)
     require 'boarding_pass/engine'
-    # class Engine < ::Rails::Engine
-    #   require 'boarding_pass/engine'
-    # end
+  else
+    Sass.load_paths << File.expand_path("../../app/assets/stylesheets", __FILE__)
   end
 end
