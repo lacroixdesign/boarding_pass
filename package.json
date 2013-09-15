@@ -1,0 +1,25 @@
+{
+  "name": "boarding-pass",
+  "version": "0.1.9",
+  "description": "Boarding Pass provides a set of tools and defaults to quickly start front-end web project styling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lacroixdesign/boarding_pass.git"
+  },
+  "keywords": [
+    "sass",
+    "css"
+  ],
+  "author": "Michael LaCroix <michael@lacroixdesign.net> (http://www.lacroixdesign.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacroixdesign/boarding_pass/issues"
+  },
+  "dependencies": {
+    "node-neat": "lacroixdesign/node-neat"
+  }
+}
