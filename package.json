@@ -1,6 +1,6 @@
 {
   "name": "boarding-pass",
-  "version": "0.1.9",
+  "version": "0.1.0",
   "description": "Boarding Pass provides a set of tools and defaults to quickly start front-end web project styling.",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
     "url": "https://github.com/lacroixdesign/boarding_pass/issues"
   },
   "dependencies": {
-    "node-neat": "lacroixdesign/node-neat"
+    "node-neat": "*"
   }
 }
