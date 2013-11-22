@@ -20,6 +20,6 @@
     "url": "https://github.com/lacroixdesign/boarding_pass/issues"
   },
   "dependencies": {
-    "node-neat": "*"
+    "node-neat": "1.x"
   }
 }
