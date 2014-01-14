@@ -1,48 +1,38 @@
-// Headings
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.5;
-  margin: 0;
+$typeface-sans:  Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$typeface-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+
+body {
+  font-size: 100%;
 }
 
-h1 {
-  font-size: 2em;
-}
+h1 {}
 
-h2 {
-  font-size: 1.75em;
-}
+h2 {}
 
-h3 {
-  font-size: 1.5em;
-}
+h3 {}
 
-h4 {
-  font-size: 1.25em;
-}
+h4 {}
 
-h5 {
-  font-size: 1em;
-}
+h5 {}
 
-h6 {
-  font-size: 0.75em;
-}
+h6 {}
 
-// Elements
-p {
-  margin: 0 0 1em 0;
-}
+p {}
 
 em {
   font-style: italic;
 }
 
 strong {
-  font-weight: bold;
+  // TODO remove this property
+  // This is already set to: `font-weight: bold;`
+  // in the _normalize.scss file
 }
 
 small {
-  font-size: 80%;
+  // TODO remove this property
+  // This is already set to: `font-size: 80%;`
+  // in the _normalize.scss file
 }
 
 a,
@@ -50,20 +40,17 @@ a:hover,
 a:focus,
 a:visited {
   color: inherit;
-  text-decoration: none;
-  outline: 0;
 }
 
 blockquote,
 blockquote p {
-  font-size: 1.125em;
-  line-height: 1.35em;
-  color: #777;
-  font-style: italic;
+  // font-size: 1.125em;
+  // line-height: 1.35em;
+  // font-style: italic;
 }
 
 blockquote {
-  margin: 0 0 1.25em;
-  padding: 0.5em 1.25em 0 1.25em;
-  border-left: 1px solid #ddd;
+  // margin: 0 0 1.25em;
+  // padding: 0.5em 1.25em 0 1.25em;
+  // border-left: 1px solid #ddd;
 }

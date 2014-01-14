@@ -1,10 +1,10 @@
 @import "bourbon";
 @import "neat";
 @import "boarding_pass/normalize";
+@import "boarding_pass/vars-typeplate";
+@import "boarding_pass/typeplate";
 @import "boarding_pass/settings";
+@import "boarding_pass/colors";
 @import "boarding_pass/mixins";
-@import "boarding_pass/defaults";
 @import "boarding_pass/typography";
-@import "boarding_pass/lists";
-@import "boarding_pass/forms";
-@import "boarding_pass/tables";
+@import "boarding_pass/defaults";

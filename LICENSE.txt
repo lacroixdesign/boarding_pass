@@ -1,4 +1,4 @@
-Copyright (c) 2013 LaCroix Design Co.
+Copyright (c) 2013-2014 LaCroix Design Co.
 
 MIT License
 

@@ -21,5 +21,10 @@
   },
   "dependencies": {
     "node-neat": "1.x"
+  },
+  "devDependencies": {
+    "node-sass": "~0.8.1",
+    "express": "~3.4.8",
+    "jade": "~1.1.4"
   }
 }
