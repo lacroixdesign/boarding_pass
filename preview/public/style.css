@@ -377,7 +377,7 @@ pre code {
  *
  */
 html {
-  font: normal "112.5%/1.65" serif; }
+  font: normal 112.5%/1.65 Georgia, Cambria, "Times New Roman", Times, serif; }
 
 body {
   -webkit-hyphens: auto;
@@ -624,26 +624,6 @@ p + .drop-cap {
  * Extend this object into your markup.
  *
  */
-body {
-  font-size: 100%; }
-
-
-
-
-
-
-
-
-em {
-  font-style: italic; }
-
-
-
-a, a:hover, a:focus, a:visited {
-  color: inherit; }
-
-
-
 * {
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important; }
@@ -655,16 +635,21 @@ html body {
 body {
   padding: 0;
   margin: 0;
-  color: #444;
-  background: #FFF; }
+  background: #fff; }
 
 ::selection {
-  background: #DDD;
-  text-shadow: none; }
+  background: #ddd;
+  color: #111; }
+
+a, a:hover, a:focus, a:visited {
+  color: inherit; }
+
+em {
+  font-style: italic; }
 
 hr {
-  border: solid #ddd;
-  border-width: 1px 0 0;
   clear: both;
+  height: 0;
   margin: 1em 0;
-  height: 0; }
+  border: solid #ddd;
+  border-width: 1px 0 0; }

@@ -9,23 +9,31 @@ html body {
 }
 
 body {
-  // For `body` typeface declarations,
-  // see the `_typography.scss` file.
   padding: 0;
   margin: 0;
-  color: #444;
-  background: #FFF;
+  background: #fff;
 }
 
 ::selection {
-  background: #DDD;
-  text-shadow: none;
+  background: $default-silver;
+  color: $default-black;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: inherit;
+}
+
+em {
+  font-style: italic;
 }
 
 hr {
+  clear: both;
+  height: 0;
+  margin: 1em 0;
   border: solid #ddd;
   border-width: 1px 0 0;
-  clear: both;
-  margin: 1em 0;
-  height: 0;
 }

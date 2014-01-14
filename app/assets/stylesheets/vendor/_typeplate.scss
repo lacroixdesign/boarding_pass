@@ -521,10 +521,11 @@ $dropcap-bg: transparent !default;
 // -------------------------------------//
 
 html {
+	$_font_metrics: '#{$font-size}%/#{$line-height}';
 	@if $custom-font-family {
-		font: $font-weight "#{$font-size}%/#{$line-height}" $custom-font-family, $font-family;
+		font: $font-weight unquote($_font_metrics) $custom-font-family, $font-family;
 	} @else {
-		font: $font-weight "#{$font-size}%/#{$line-height}" $font-family;
+		font: $font-weight unquote($_font_metrics) $font-family;
 	}
 }
 
