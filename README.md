@@ -6,43 +6,56 @@ Default styles for websites using [Sass](http://sass-lang.com/). Compatible with
 
 ### node-sass
 
-  npm install boarding-pass
+```shell
+npm install boarding-pass
+```
 
 Require the boarding-pass module and set Boarding Pass' `includePaths` property to node-sass' `includePaths` option.
 
-  var sass = require('node-sass');
-  var boardingPass = require('boarding-pass');
-  
-  sass.render({
-      file: scss_filename,
-      success: callback,
-      includePaths: boardingPass.includePaths,
-  });
+```javascript
+var sass = require('node-sass');
+var boardingPass = require('boarding-pass');
+
+sass.render({
+    file: scss_filename,
+    success: callback,
+    includePaths: boardingPass.includePaths,
+});
+```
 
 This will load the paths for Boarding Pass, Bourbon, and Neat.
 
 In your scss file, simply add:
 
-    @import "boarding_pass";
+```scss
+@import "boarding_pass";
+```
 
 ### Rails 3.1+
+
 Add to your `Gemfile`:
 
-    gem 'boarding_pass'
+```ruby
+gem 'boarding_pass'
+```
 
 Run:
 
-    bundle install
+```shell
+bundle install
+```
 
 In your `application.css.scss` file, add:
 
-    @import "boarding_pass";
+```scss
+@import "boarding_pass";
+```
 
 
 ## Colors
 The variable names from the Colors library have been changed slightly to include a prefix of `$default-`:
 
-```
+```scss
 // Cool
 $default-aqua:  #7fdbff;
 $default-blue:  #0074d9;
@@ -67,7 +80,12 @@ $default-gray:   #aaa;
 $default-black:  #111;
 ```
 
+## Contributing
+Clone and run `npm install`.
+
+You can run a local preview server to view your changes with `node server.js`. Any changes will be recompiled on page refresh.
+
 ## License
 
-Copyright © 2013-2014 LaCroix Design Co.  
+Copyright © 2013 LaCroix Design Co.  
 Released under the MIT License
