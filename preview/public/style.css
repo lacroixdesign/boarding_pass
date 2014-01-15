@@ -388,7 +388,7 @@ body {
   color: #444; }
 
 small {
-  font-size: 65%; }
+  font-size: 11.12485; }
 
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
@@ -396,46 +396,73 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
 
 .tera {
-  font-size: 117px;
-  font-size: 6.5rem;
-  margin-bottom: 0.25385rem; }
+  @debug 29.7;
+  @debug 95.30552;
+  @debug 0.31163;
+  font-size: 95.30552px;
+  font-size: 5.29475rem;
+  margin-bottom: 0.31163rem; }
 
 .giga {
-  font-size: 90px;
-  font-size: 5rem;
-  margin-bottom: 0.33rem; }
+  @debug 29.7;
+  @debug 76.24442;
+  @debug 0.38954;
+  font-size: 76.24442px;
+  font-size: 4.2358rem;
+  margin-bottom: 0.38954rem; }
 
 .mega {
-  font-size: 72px;
-  font-size: 4rem;
-  margin-bottom: 0.4125rem; }
+  @debug 29.7;
+  @debug 58.90329;
+  @debug 0.50422;
+  font-size: 58.90329px;
+  font-size: 3.27241rem;
+  margin-bottom: 0.50422rem; }
 
 .alpha, h1 {
-  font-size: 60px;
-  font-size: 3.33333rem;
-  margin-bottom: 0.495rem; }
+  @debug 29.7;
+  @debug 47.12263;
+  @debug 0.63027;
+  font-size: 47.12263px;
+  font-size: 2.61792rem;
+  margin-bottom: 0.63027rem; }
 
 .beta, h2 {
-  font-size: 48px;
-  font-size: 2.66667rem;
-  margin-bottom: 0.61875rem; }
+  @debug 29.7;
+  @debug 36.405;
+  @debug 0.81582;
+  font-size: 36.405px;
+  font-size: 2.0225rem;
+  margin-bottom: 0.81582rem; }
 
 .gamma, h3 {
-  font-size: 36px;
-  font-size: 2rem;
-  margin-bottom: 0.825rem; }
+  @debug 29.7;
+  @debug 29.124;
+  @debug 1.01978;
+  font-size: 29.124px;
+  font-size: 1.618rem;
+  margin-bottom: 1.01978rem; }
 
 .delta, h4 {
-  font-size: 24px;
-  font-size: 1.33333rem;
-  margin-bottom: 1.2375rem; }
+  @debug 29.7;
+  @debug 22.5;
+  @debug 1.32;
+  font-size: 22.5px;
+  font-size: 1.25rem;
+  margin-bottom: 1.32rem; }
 
 .epsilon, h5 {
-  font-size: 21px;
-  font-size: 1.16667rem;
-  margin-bottom: 1.41429rem; }
+  @debug 29.7;
+  @debug 20.25;
+  @debug 1.46667;
+  font-size: 20.25px;
+  font-size: 1.125rem;
+  margin-bottom: 1.46667rem; }
 
 .zeta, h6 {
+  @debug 29.7;
+  @debug 18;
+  @debug 1.65;
   font-size: 18px;
   font-size: 1rem;
   margin-bottom: 1.65rem; }
@@ -448,16 +475,13 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin: auto auto 1.5em; }
-  p + p {
-    text-indent: 1.5em;
-    margin-top: -1.5em; }
 
 abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var, xmp {
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  -o-hyphens: none;
-  hyphens: none; }
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto; }
 
 pre code {
   white-space: -moz- pre-wrap;
