@@ -25,7 +25,7 @@ $font-size: 112.5; // percentage value (16 * 112.5% = 18px)
 $font-base: 16 * ($font-size/100); // converts our percentage to a pixel value
 $font-family: $typeface-serif; // Non-font-face font-stack
 $custom-font-family: false; // Custom font-face stack, if set will be added to the $font-family
-$modular-scale: $golden;
+$modular-scale: 1.618;
 
 
 // $Paragraphs
