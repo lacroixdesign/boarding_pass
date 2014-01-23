@@ -19,111 +19,111 @@
 // $BaseType
 // -------------------------------------//
 
-$font-weight: normal;
-$line-height: 1.65;
-$font-size: 112.5; // percentage value (16 * 112.5% = 18px)
-$font-base: 16 * ($font-size/100); // converts our percentage to a pixel value
-$font-family: $typeface-serif; // Non-font-face font-stack
-$custom-font-family: false; // Custom font-face stack, if set will be added to the $font-family
-$modular-scale: 1.618;
+$font-weight: normal !default;
+$line-height: 1.65 !default;
+$font-size: 112.5 !default; // percentage value (16 * 112.5% = 18px)
+$font-base: 16 * ($font-size/100) !default; // converts our percentage to a pixel value
+$font-family: $typeface-serif !default; // Non-font-face font-stack
+$custom-font-family: false !default; // Custom font-face stack, if set will be added to the $font-family
+$modular-scale: 1.618 !default;
 
 
 // $Paragraphs
 // -------------------------------------//
 
 // Text Indentation Value
-$indent-val: 1.5em;
+$indent-val: 1.5em !default;
 
 // Paragraph Styling Boolean
 // 'false' means no vertical whitespace
 // between subsequent paragraphs.
-$paragraph-vertical-whitespace: true;
+$paragraph-vertical-whitespace: true !default;
 
 
 // $Small Print
 // -------------------------------------//
 
-$small-print-size: modular-scale($font-base, -1, $modular-scale);
+$small-print-size: modular-scale($font-base, -1, $modular-scale) !default;
 
 
 // $Color
 // -------------------------------------//
 
-$body-copy-color: #444;
-$heading-color: #222;
+$body-copy-color: #444 !default;
+$heading-color: #222 !default;
 
 
 // $Ampersand
 // -------------------------------------//
 
-$amp-fontface-name: Ampersand;
-$amp-fontface-source: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua');
-$amp-fontface-fallback: local('Georgia');
+$amp-fontface-name: Ampersand !default;
+$amp-fontface-source: local('Georgia'), local('Garamond'), local('Palatino'), local('Book Antiqua') !default;
+$amp-fontface-fallback: local('Georgia') !default;
 
 // Allows for our ampersand element to have differing
 // font-family from the ampersand unicode font-family.
-$amp-font-family: Verdana, sans-serif;
+$amp-font-family: Verdana, sans-serif !default;
 
 
 // $Icon-Font-Helper
 // -------------------------------------//
-// ex.1) $icon-fonts: (icon-name);
-// ex.2) $icon-fonts: (icon-name1, icon-name2, icon-name3);
-$icon-fonts: null;
+// ex.1) $icon-fonts: (icon-name) !default;
+// ex.2) $icon-fonts: (icon-name1, icon-name2, icon-name3) !default;
+$icon-fonts: null !default;
 
 
 // $TypeScale
 // -------------------------------------//
 
-$tera: (modular-scale($font-base, 3, $modular-scale)*1.25);
-$giga: modular-scale($font-base, 3, $modular-scale);
-$mega: (modular-scale($font-base, 2, $modular-scale)*1.25);
-$alpha: modular-scale($font-base, 2, $modular-scale);
-$beta: (modular-scale($font-base, 1, $modular-scale)*1.25);
-$gamma: modular-scale($font-base, 1, $modular-scale);
-$delta: (modular-scale($font-base, 0, $modular-scale)*1.25);
-$epsilon: (modular-scale($font-base, 0, $modular-scale)*1.125);
-$zeta: modular-scale($font-base, 0, $modular-scale);
+$tera: (modular-scale($font-base, 3, $modular-scale)*1.25) !default;
+$giga: modular-scale($font-base, 3, $modular-scale) !default;
+$mega: (modular-scale($font-base, 2, $modular-scale)*1.25) !default;
+$alpha: modular-scale($font-base, 2, $modular-scale) !default;
+$beta: (modular-scale($font-base, 1, $modular-scale)*1.25) !default;
+$gamma: modular-scale($font-base, 1, $modular-scale) !default;
+$delta: (modular-scale($font-base, 0, $modular-scale)*1.25) !default;
+$epsilon: (modular-scale($font-base, 0, $modular-scale)*1.125) !default;
+$zeta: modular-scale($font-base, 0, $modular-scale) !default;
 
 
 // $TypeScale-Unit
 // -------------------------------------//
 
-$type-scale-unit-value: rem;
+$type-scale-unit-value: rem !default;
 
 
 // $Pull-Quotes
 // -------------------------------------//
 
-$pull-quote-fontsize: 4em;
-$pull-quote-opacity: 0.5;
-$pull-quote-color: #dc976e;
+$pull-quote-fontsize: 4em !default;
+$pull-quote-opacity: 0.5 !default;
+$pull-quote-color: #dc976e !default;
 
 
 // $Citation
 // -------------------------------------//
 
-$cite-display: block;
-$cite-text-align: right;
-$cite-font-size: inherit;
+$cite-display: block !default;
+$cite-text-align: right !default;
+$cite-font-size: inherit !default;
 
 
 // $SmallCaps
 // -------------------------------------//
 
-$small-caps-color: gray;
-$small-caps-weight: 600;
+$small-caps-color: gray !default;
+$small-caps-weight: 600 !default;
 
 
 // $DropCap
 // -------------------------------------//
 
-$dropcap-float-position: left;
-$dropcap-font-size: 4em;
-$dropcap-font-family: inherit;
-$dropcap-txt-indent: 0;
-$dropcap-margin: inherit;
-$dropcap-padding: inherit;
-$dropcap-color: inherit;
-$dropcap-line-height: 1;
-$dropcap-bg: transparent;
+$dropcap-float-position: left !default;
+$dropcap-font-size: 4em !default;
+$dropcap-font-family: inherit !default;
+$dropcap-txt-indent: 0 !default;
+$dropcap-margin: inherit !default;
+$dropcap-padding: inherit !default;
+$dropcap-color: inherit !default;
+$dropcap-line-height: 1 !default;
+$dropcap-bg: transparent !default;
