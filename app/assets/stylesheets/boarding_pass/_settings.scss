@@ -1,8 +1,8 @@
 // default breakpoints
-$breakpoint-ipad: 768px;
-$breakpoint-desktop: 900px;
-$breakpoint-large-screen: 1200px;
+$breakpoint-ipad: 768px !default;
+$breakpoint-desktop: 900px !default;
+$breakpoint-large-screen: 1200px !default;
 
 // default typefaces
-$typeface-sans:  Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
-$typeface-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$typeface-sans:  Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$typeface-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
