@@ -579,9 +579,9 @@ $sizes: tera $tera, giga $giga, mega $mega, alpha $alpha, beta $beta, gamma $gam
 // for each size in the scale, create a class
 @each $size in $sizes {
 	.#{nth($size, 1)} {
-		@debug #{$measure};
-		@debug #{nth($size, 2)};
-		@debug #{$measure / nth($size, 2)};
+		// @debug #{$measure};
+		// @debug #{nth($size, 2)};
+		// @debug #{$measure / nth($size, 2)};
 		@include type-scale(nth($size, 2), $font-base, '#{$type-scale-unit-value}', $measure);
 	}
 }

@@ -426,73 +426,46 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
 
 .tera {
-  @debug 29.7;
-  @debug 95.30552;
-  @debug 0.31163;
   font-size: 95.30552px;
   font-size: 5.29475rem;
   margin-bottom: 0.31163rem; }
 
 .giga {
-  @debug 29.7;
-  @debug 76.24442;
-  @debug 0.38954;
   font-size: 76.24442px;
   font-size: 4.2358rem;
   margin-bottom: 0.38954rem; }
 
 .mega {
-  @debug 29.7;
-  @debug 58.90329;
-  @debug 0.50422;
   font-size: 58.90329px;
   font-size: 3.27241rem;
   margin-bottom: 0.50422rem; }
 
 .alpha, h1 {
-  @debug 29.7;
-  @debug 47.12263;
-  @debug 0.63027;
   font-size: 47.12263px;
   font-size: 2.61792rem;
   margin-bottom: 0.63027rem; }
 
 .beta, h2 {
-  @debug 29.7;
-  @debug 36.405;
-  @debug 0.81582;
   font-size: 36.405px;
   font-size: 2.0225rem;
   margin-bottom: 0.81582rem; }
 
 .gamma, h3 {
-  @debug 29.7;
-  @debug 29.124;
-  @debug 1.01978;
   font-size: 29.124px;
   font-size: 1.618rem;
   margin-bottom: 1.01978rem; }
 
 .delta, h4 {
-  @debug 29.7;
-  @debug 22.5;
-  @debug 1.32;
   font-size: 22.5px;
   font-size: 1.25rem;
   margin-bottom: 1.32rem; }
 
 .epsilon, h5 {
-  @debug 29.7;
-  @debug 20.25;
-  @debug 1.46667;
   font-size: 20.25px;
   font-size: 1.125rem;
   margin-bottom: 1.46667rem; }
 
 .zeta, h6 {
-  @debug 29.7;
-  @debug 18;
-  @debug 1.65;
   font-size: 18px;
   font-size: 1rem;
   margin-bottom: 1.65rem; }
