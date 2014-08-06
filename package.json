@@ -1,6 +1,6 @@
 {
   "name": "boarding-pass",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "Boarding Pass provides a set of tools and defaults to quickly start front-end web project styling.",
   "main": "index.js",
   "scripts": {
